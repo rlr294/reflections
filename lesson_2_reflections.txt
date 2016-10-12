@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+The .git directory is added to the repository, allowing git to track the 
+history of the repository since it was created.  It also gives you the 
+ability to use the various git commands on the repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+The staging area is an area where you can add files that you want to be committed 
+to your repository; it is an intermediary step.  This allows you to have files 
+within your working directory that are not committed to the repository.
