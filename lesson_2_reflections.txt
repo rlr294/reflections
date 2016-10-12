@@ -20,3 +20,7 @@ Branches are useful when you want to make a change to a repository, but still
 keep the original repository as its own functioning version. For example, if
 you wanted to create a version of your program in a different language you would
 create a new branch.
+
+How do the diagrams help you visualize the branch structure?
+They give you a clear view of exactly where each branch connects to previous commits,
+by connecting them to their parent commits.
