@@ -17,3 +17,7 @@ Useful for bringing a project to a new computer or obtaining files after forking
 Branching makes a new line of commits that will not overwrite other branches.
 Useful for making changes to your program that are experimental or do not belong in
 the main branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+When attempting to push or pull from the remote Git knows what changes have been made to the
+remote since you last interacted with it.
