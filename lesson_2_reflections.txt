@@ -30,3 +30,9 @@ diagram the way we do?
 The changes from both branches are combined together into a single version.  We 
 represent it on the diargam like we do because both branches will be parents of
 the merged commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git's automatic merging does a lot of the work for you compared to trying to manually
+merge two branches, saving time.  It, however, has the potential for merge conflicts.
+Manually merging will be much more time consuming and error prone, but all merge conflicts
+can be addressed right as they arrise.
