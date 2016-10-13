@@ -24,3 +24,9 @@ create a new branch.
 How do the diagrams help you visualize the branch structure?
 They give you a clear view of exactly where each branch connects to previous commits,
 by connecting them to their parent commits.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+The changes from both branches are combined together into a single version.  We 
+represent it on the diargam like we do because both branches will be parents of
+the merged commit.
