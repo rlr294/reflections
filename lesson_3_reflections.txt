@@ -21,3 +21,11 @@ the main branch.
 What is the benefit of having a copy of the last known state of the remote stored locally?
 When attempting to push or pull from the remote Git knows what changes have been made to the
 remote since you last interacted with it.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would
+be harder?
+You would need to directly share your code with collaborators, likely giving them a zip file
+with all the necessary files compressed in it. Whenever someone made a change it would need to
+be manually merged into the master, a time consuming process.  Then the updated master would
+need to be redistributed to all collaborators again.  This would be much harder than using Git
+and GitHub.
