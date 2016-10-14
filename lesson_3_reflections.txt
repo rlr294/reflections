@@ -29,3 +29,9 @@ with all the necessary files compressed in it. Whenever someone made a change it
 be manually merged into the master, a time consuming process.  Then the updated master would
 need to be redistributed to all collaborators again.  This would be much harder than using Git
 and GitHub.
+
+When would you want to make changes in a separate branch rather than directly in master? What
+benefits does each approach have?
+When you are working on an experimental feature and don't want to break the current master
+version. When you are collaborating with people and want to get input before committing your
+changes to master.  This gives you more safety in knowing your master will always be functional.
